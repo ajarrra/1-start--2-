@@ -30,22 +30,8 @@ button,
 label{
 	cursor: pointer;
 }
-input,
-button,
-textarea{
-	background: none;
-	border: none;
-	outline: none;
-	display: block;
-	width: 100%;
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: inherit;
-}
-input[type="radio"],
-input[type="checkbox"]{
-	display: none;
-}
+
+
 input::placeholder {
 	color: inherit;
 }
@@ -153,118 +139,55 @@ section{
 	/* font-size: 16px; */
   }
   
-  .input-control {
-	display: flex;
-	flex-direction: column;
-  }
   
-  .input-control input {
-	/* border: 2px 2px solid #8d8d8d; */
-	border-bottom: #656161 2px solid;
-	background: #ededed;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 12px;
+  .cards_txt{
+	text-align: center;
+	margin-bottom: 30px;
   }
-  
+
+  h1{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 35px;
 	
-  
-  .input-control input:focus {
-	outline: 0;
   }
-  
-  .input-control.success input {
-	border-color: #09c372;
+
+  .card_img{
+	width: 350px;
+	height: 370px;
+	position: relative;
   }
-  
-  .input-control.error input {
-	border-color: #ff3860;
+  .cards{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-evenly;
+	margin-top: 60px;
+	flex-wrap: wrap;
   }
-  
-  .input-control .error {
-	color: #ff3860;
-	font-size: 9px;
-	height: 13px;
-  }
-  .last_input{
-	width: 44%;
-  }
-  .valude_tit {
-	color: rgb(0, 0, 0);
-	margin: 2% 0 1%;
-	font-size: 16px;
-	font-weight: 500;
-  }
-  
-  #email,
-  #username {
-	width: 44%;
-  }
-  
-  .get_free_valudes {
-	gap: 16%;
-  }
-  
-  .get_free_valude_cards_txt {
+
+  .card_txt{
+    position: absolute;
+	margin-top: -100px;
 	color: white;
-	width: 287px;
-	font-family: Lato;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 26px;
-	letter-spacing: 0em;
-	text-align: left;
-	font-family: 'Manrope', arial, sans-serif;
+	width: 158px;
+	display: flex;
+	margin-left: 95px;
+	text-align: center;
+    line-height: 24px;
   }
-  
-  .get_free_valude_cards {
-	justify-content: space-between;
+
+
+
+
+  .card_btn{
+	margin-top: 50px;
+	background-color: black;
+	padding: 20px 50px  ;
+	color: white;
+	display:block;
+	margin: auto;
+	margin-top: 60px;
+
   }
-  
-  .all_get_free {
-	background: #F4F4F4 ;
-  }
-  
-  .get_free {
-	justify-content: space-around;
-	flex-wrap: nowrap;
-  }
-  
-  
-  select {
-	font-size: 1rem;
-	  padding: 13px 13px;
-	border-bottom: #656161 2px solid;
-	background: #ededed;
-	border-radius: 4px;
-	}
-  label {
-	font-family: sans-serif;
-	font-size: 1rem;
-	padding-right: 10px;
-	}
-  .input_phone_txt_card{
-	padding: 10px;
-	margin-left: 21px;
-	background: #ededed;
-	border-radius: 12px;
-	}
-  .exclamatory_phone{
-	  width: 21px;
-	}
-  .input_phone_txt{
-	  width: 300px;
-  }
-  .input_checkbox{
-	width: 26px;
-  }
-  .input_check_checkbox{
-	margin-left: 20px;
-  }
-  .input_check_valute{
-  margin: 18px 8px;
-  }
-  .valude_tit_zena{
-	width: 100%;
-  }
+
+
